@@ -77,12 +77,10 @@ This project aligns perfectly with the **Tambo Hackathon – The UI Strikes Back
 
 ## 📸 Screenshots
 
-
-```bash
 ![Landing Page](./screenshots/landing.png)
 ![Resume Builder](./screenshots/builder.png)
 ![Preview](./screenshots/preview.png)
-```
+
 ---
 
 ## ⚙️ Installation & Setup
