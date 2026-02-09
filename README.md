@@ -1,66 +1,191 @@
-# 📄 AJ Intelligent AI Resume Builder
+# 🚀 AJ AI Resume Builder  
+### AI-Powered Resume Builder for Modern Job Seekers  
 
-**Craft a professional, high-impact resume in minutes.** Powered by **Tambo AI** to transform your raw experience into a polished career narrative.
-
----
-
-## 👤 Developer Information
-* **Name:** Aathavajayanth A S
-* **Email:** aathavajayanth@gmail.com
-* **GitHub:** [github.com/Aathava-Jayanth](https://github.com/Aathava-Jayanth)
+> 🏆 Built for **Tambo Hackathon – “The UI Strikes Back”** by WeMakeDevs
 
 ---
 
-## 🚀 Quick Start
-Get your AI-powered NextJS app running in minutes:
+## 📌 Live Demo  
+🔗 **Website:** https://aj-ai-resume-builder.vercel.app/
 
-1.  **Initialize:** 
-    ```bash
-    npm create-tambo@latest my-tambo-app
-    ```
-2.  **Install Dependencies:** 
-    ```bash
-    npm install
-    ```
-3.  **Configure API:** * Rename `example.env.local` to `.env.local`.
-    * Add your free API key from [tambo.co/dashboard](https://tambo.co/dashboard).
-
-4.  **Launch:** 
-
-    ```bash
-    npm run dev
-    ```
-    *Visit `localhost:3000` to start building.*
+## 🎥 Demo Video  
+▶️ **YouTube:** https://youtu.be/ktBJF8ZtHZA?si=bJXJKVkRJnet7CGy
 
 ---
 
-## 🛠️ Core Concepts
+## 🧠 About the Project
 
-### 1. Generative Components
-Tambo allows the AI to render actual UI components (like Graphs or Resume Templates) instead of just plain text.
-* **Registration:** Define components in `src/lib/tambo.ts` using `propsSchema`.
-* **Expansion:** Use `npx tambo add [component-name]` to quickly inject new UI elements.
+**AJ AI Resume Builder** is a smart, AI-powered web application that helps users create professional resumes in minutes.
 
-### 2. Custom Tools
-Tools allow the AI to perform specific actions or fetch external data.
-* **Input Schema:** Defines what information the AI needs to collect.
-* **Output Schema:** Defines the structure of the data the AI receives back.
+Instead of manually writing resumes, users can:
 
-### 3. TamboProvider
-The "brain" of the app. Your `Layout.tsx` must wrap the application in the `TamboProvider` to share the API key, components, and tools throughout the project.
+- Enter their details
+- Get AI-generated content
+- Export resumes instantly
+
+This project focuses on **great UI/UX + AI automation** to improve the job application process.
 
 ---
 
-## 🎙️ Advanced Features
-* **Voice Input:** Includes a `DictationButton` using the `useTamboVoice` hook for hands-free interaction.
-* **MCP (Model Context Protocol):** Connects the AI to external prompts and resources using specialized hooks.
-* **Flexible Layouts:** Display AI-generated components anywhere in your UI by accessing the `renderedComponent` field from the latest message.
+## ✨ Key Features
+
+✅ AI-powered resume generation  
+✅ Real-time resume preview  
+✅ Editable sections  
+✅ Live Resume templates  
+✅ PDF/WORD export  
+✅ Responsive design  
+✅ Clean and modern UI    
+✅ Fast performance  
 
 ---
 
-## 📖 Resources
-* **Official Docs:** [docs.tambo.co](https://docs.tambo.co)
-* **Tambo Dashboard:** [tambo.co/dashboard](https://tambo.co/dashboard)
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Next.js 15 | Frontend Framework |
+| React | UI Development |
+| Tailwind CSS | Styling |
+| Tambo AI | AI Integration |
+| TypeScript | Type Safety |
+| Vercel | Deployment |
 
 ---
-*Created with Tambo AI Engine - Sophisticated Agent Orchestration.*
+
+## 🎯 Hackathon Alignment
+
+This project aligns perfectly with the **Tambo Hackathon – The UI Strikes Back** theme:
+
+### ✔ UI Excellence
+- Clean and modern interface
+- Smooth animations
+- Responsive layout
+- User-friendly flow
+
+### ✔ AI + Tools Integration
+- Tambo AI for resume generation
+- Intelligent content suggestions
+- Automated formatting
+
+### ✔ Practical Impact
+- Helps students and professionals
+- Saves time
+- Improves resume quality
+
+---
+
+## 📸 Screenshots
+
+
+```bash
+![Landing Page](./screenshots/landing.png)
+![Resume Builder](./screenshots/builder.png)
+![Preview](./screenshots/preview.png)
+```
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Aathava-Jayanth/AJ-AI-Resume-Builder.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd AJ-AI-Resume-Builder
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run Development Server
+
+```bash
+npm run dev
+```
+
+### The application will run at:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+AJ-AI-Resume-Builder/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   ├── store/
+│   └── tools/
+├── public/
+├── README.md
+└── package.json
+
+```
+---
+
+## 🧩 Challenges Faced
+- Integrating AI responses smoothly
+
+- Streaming response handling
+
+- UI performance optimization
+
+- Tailwind + Next.js configuration
+
+- Color compatibility issues
+
+All issues were resolved through debugging and optimization.
+
+---
+
+## 📈 Future Improvements
+
+- More resume templates
+
+- Multi-language support
+
+- Cover letter generator
+
+- Resume scoring system
+
+- ATS optimization
+
+- User accounts & cloud storage
+
+---
+
+## 👨‍💻 Author
+
+### Aathava Jayanth
+
+- GitHub: https://github.com/Aathava-Jayanth
+
+- LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7425996054095015936/
+
+--- 
+
+## 🙏 Acknowledgements
+
+- Tambo AI Team
+
+- WeMakeDevs Community
+
+---
+
+⭐ If you like this project, please give it a star on GitHub!
+
